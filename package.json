@@ -1,0 +1,15 @@
+{
+  "name": "tarot-api",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "Tarot API. Three card past present future, Celtic Cross, yes no, love spread, daily card. Seeded for deterministic per user reads.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.23"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
