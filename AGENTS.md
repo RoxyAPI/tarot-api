@@ -6,7 +6,7 @@ This repo teaches AI coding agents (Cursor, Claude Code, Aider, Codex, Windsurf,
 - Method: `POST`
 - URL: `https://roxyapi.com/api/v2/tarot/spreads/three-card`
 - Auth: `X-API-Key` header
-- Domain: `tarot` (one of 10 in the RoxyAPI catalog)
+- Domain: `tarot` (one of 12 in the RoxyAPI catalog)
 - Operation ID: `castThreeCard` matches the SDK method name in camelCase
 - MCP tool: `post_tarot_spreads_three_card` on `https://roxyapi.com/mcp/tarot`
 

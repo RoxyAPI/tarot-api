@@ -2,7 +2,7 @@
 
 # Tarot API
 
-> Three-card past, present, future. Celtic Cross, yes no, love spread, daily card. Seeded RNG over the curated 78-card deck for deterministic per-user readings. One key covers 10 spiritual domains. MCP-first, no local setup required.
+> Three-card past, present, future. Celtic Cross, yes no, love spread, daily card. Seeded RNG over the curated 78-card deck for deterministic per-user readings. One key covers 12 spiritual domains. MCP-first, no local setup required.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
@@ -12,13 +12,13 @@
 
 ## What is Tarot API
 
-The RoxyAPI tarot endpoint ships the full 78-card Rider-Waite-Smith deck (22 Major Arcana plus 56 Minor Arcana) with upright and reversed meanings, position-specific interpretations, keyword arrays, and CDN-hosted card artwork. The three-card spread returns Past, Present, and Future positions in one call. Draws use a seedable RNG so the same seed always returns the same cards in the same positions, which makes daily-card features and shareable readings trivial. One RoxyAPI subscription covers 10 spiritual domains: tarot, Western astrology, Vedic astrology, numerology, biorhythm, I Ching, crystals, dreams, and angel numbers. This repo ships working TypeScript, JavaScript, and Python samples so you can drop tarot reading features into a divination, dating, or wellness product in minutes.
+The RoxyAPI tarot endpoint ships the full 78-card Rider-Waite-Smith deck (22 Major Arcana plus 56 Minor Arcana) with upright and reversed meanings, position-specific interpretations, keyword arrays, and CDN-hosted card artwork. The three-card spread returns Past, Present, and Future positions in one call. Draws use a seedable RNG so the same seed always returns the same cards in the same positions, which makes daily-card features and shareable readings trivial. One RoxyAPI subscription covers 12 spiritual domains: tarot, Western astrology, Vedic astrology, numerology, biorhythm, I Ching, crystals, dreams, angel numbers, Human Design, and Forecast. This repo ships working TypeScript, JavaScript, and Python samples so you can drop tarot reading features into a divination, dating, or wellness product in minutes.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
-| Coverage | 10 spiritual domains in one subscription |
+| Coverage | 12 spiritual domains in one subscription |
 | Calculation | Seedable RNG over the curated 78-card deck |
 | Spreads | Three-Card, Celtic Cross, Love, Career, Yes No, Daily, plus custom builder |
 | MCP server | `https://roxyapi.com/mcp/tarot` (Streamable HTTP, no local setup) |
