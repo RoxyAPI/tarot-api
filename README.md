@@ -2,30 +2,30 @@
 
 # Tarot API
 
-> Three-card past, present, future. Celtic Cross, yes no, love spread, daily card. Seeded RNG over the curated 78-card deck for deterministic per-user readings. One key covers 12 spiritual domains. MCP-first, no local setup required.
+> Three-card past, present, future. Celtic Cross, yes no, love spread, daily card. Seeded RNG over the curated 78-card deck for deterministic per-user readings. One key covers 12+ spiritual domains. MCP-first, no local setup required.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
 [![Cards](https://img.shields.io/badge/Cards-78_Rider_Waite-f59e0b?style=for-the-badge&logo=github&logoColor=white)](https://roxyapi.com/methodology)
 [![MCP Server](https://img.shields.io/badge/MCP_Server-Streamable_HTTP-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)](https://roxyapi.com/docs/mcp)
-[![SDK](https://img.shields.io/badge/SDK-TypeScript_+_Python-3b82f6?style=for-the-badge&logo=npm&logoColor=white)](https://roxyapi.com/docs/sdk)
+[![SDK](https://img.shields.io/badge/SDK-TypeScript_+_Python_+_PHP_+_C%23_+_Go_+_WordPress-3b82f6?style=for-the-badge&logo=npm&logoColor=white)](https://roxyapi.com/docs/sdk)
 
 ## What is Tarot API
 
-The RoxyAPI tarot endpoint ships the full 78-card Rider-Waite-Smith deck (22 Major Arcana plus 56 Minor Arcana) with upright and reversed meanings, position-specific interpretations, keyword arrays, and CDN-hosted card artwork. The three-card spread returns Past, Present, and Future positions in one call. Draws use a seedable RNG so the same seed always returns the same cards in the same positions, which makes daily-card features and shareable readings trivial. One RoxyAPI subscription covers 12 spiritual domains: tarot, Western astrology, Vedic astrology, numerology, biorhythm, I Ching, crystals, dreams, angel numbers, Human Design, and Forecast. This repo ships working TypeScript, JavaScript, and Python samples so you can drop tarot reading features into a divination, dating, or wellness product in minutes.
+The RoxyAPI tarot endpoint ships the full 78-card Rider-Waite-Smith deck (22 Major Arcana plus 56 Minor Arcana) with upright and reversed meanings, position-specific interpretations, keyword arrays, and CDN-hosted card artwork. The three-card spread returns Past, Present, and Future positions in one call. Draws use a seedable RNG so the same seed always returns the same cards in the same positions, which makes daily-card features and shareable readings trivial. One RoxyAPI subscription covers 12+ spiritual domains: Western astrology, Vedic astrology, numerology, tarot, Human Design, Forecast, biorhythm, I Ching, crystals, dreams, angel numbers, and location. This repo ships working TypeScript, JavaScript, and Python samples so you can drop tarot reading features into a divination, dating, or wellness product in minutes.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
-| Coverage | 12 spiritual domains in one subscription |
+| Coverage | 12+ spiritual domains in one subscription |
 | Calculation | Seedable RNG over the curated 78-card deck |
 | Spreads | Three-Card, Celtic Cross, Love, Career, Yes No, Daily, plus custom builder |
 | MCP server | `https://roxyapi.com/mcp/tarot` (Streamable HTTP, no local setup) |
-| SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk` |
+| SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk`, PHP on Packagist `roxyapi/sdk`, C# on NuGet `RoxyApi.Sdk`, Go `github.com/RoxyAPI/sdk-go`, WordPress plugin `roxyapi` |
 | Pricing | One key, flat per call, $39 for 25K calls |
 | Licensing | Personal and commercial use, including closed source apps. No AGPL or GPL entanglement. [Full terms](https://roxyapi.com/policy/license) |
-| Last verified | 2026-Q2 |
+| Last verified | 2026-Q3 |
 
 ## Quick start
 
@@ -205,6 +205,10 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 - [Full API reference](https://roxyapi.com/api-reference) interactive Scalar UI
 - [TypeScript SDK on npm](https://www.npmjs.com/package/@roxyapi/sdk)
 - [Python SDK on PyPI](https://pypi.org/project/roxy-sdk/)
+- [PHP SDK on Packagist](https://packagist.org/packages/roxyapi/sdk)
+- [C# SDK on NuGet](https://www.nuget.org/packages/RoxyApi.Sdk)
+- [Go SDK on pkg.go.dev](https://pkg.go.dev/github.com/RoxyAPI/sdk-go)
+- [WordPress plugin](https://wordpress.org/plugins/roxyapi/)
 - [llms.txt](https://roxyapi.com/llms.txt) full LLM citation index
 - [Top level AGENTS.md](https://roxyapi.com/AGENTS.md)
 
