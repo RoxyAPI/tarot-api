@@ -23,7 +23,7 @@ The RoxyAPI tarot endpoint ships the full 78-card Rider-Waite-Smith deck (22 Maj
 | Spreads | Three-Card, Celtic Cross, Love, Career, Yes No, Daily, plus custom builder |
 | MCP server | `https://roxyapi.com/mcp/tarot` (Streamable HTTP, no local setup) |
 | SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk`, PHP on Packagist `roxyapi/sdk`, C# on NuGet `RoxyApi.Sdk`, Go `github.com/RoxyAPI/sdk-go`, WordPress plugin `roxyapi` |
-| Pricing | One key, flat per call, $39 for 25K calls |
+| Pricing | One key, flat per call, from $39/mo |
 | Licensing | Personal and commercial use, including closed source apps. No AGPL or GPL entanglement. [Full terms](https://roxyapi.com/policy/license) |
 | Last verified | 2026-Q3 |
 
